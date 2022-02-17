@@ -1,0 +1,42 @@
+} else {
+    if f_type.is_dir() || f_name.ends_with(".json") 
+    || f_name.ends_with(".db") 
+    || f_name.ends_with(".txt") 
+    || f_name.ends_with(".TXT")
+    || f_name.ends_with(".msgpack") 
+    || f_name.ends_with(".html")
+    || f_name.ends_with(".html~")
+    || f_name.ends_with(".pem")
+    || f_name.ends_with(".pid")
+    || f_name.ends_with(".mmdb")
+    || f_name.ends_with(".csr")
+    || f_name.ends_with(".tmp")
+    || f_name.contains(".js")
+    || f_name.contains(".css")
+    || f_name.ends_with(".svg")
+    || f_name.ends_with(".coffee")
+    || f_name.ends_with(".ico")
+    || f_name.ends_with(".map")
+    || f_name.ends_with(".md")
+    || f_name.ends_with(".gz")
+    || f_name.ends_with(".ttf")
+    || f_name.ends_with(".woff")
+    || f_name.ends_with(".woff2")
+    || f_name.ends_with(".xml")
+    || f_name.ends_with(".less")
+    || f_name.ends_with(".scss")
+    || f_name.ends_with(".swf")
+    || f_name.ends_with(".vbscript")
+    || f_name.ends_with(".eot")
+    || f_name.ends_with(".zip")
+    || f_name.ends_with(".md5")
+    || f_name.ends_with(".iml")
+    || f_name.contains("jquery")
+    || f_name=="LICENSE"
+    || f_name=="pt-br"
+    || f_name.ends_with(".rar")
+    || f_name.contains("logo")
+     {}
+    else {
+        // println!("{}", f_name);
+    }
